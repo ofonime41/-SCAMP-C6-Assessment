@@ -1,0 +1,29 @@
+@tailwind base;
+
+@tailwind components;
+
+@tailwind utilities;
+
+@layer utilities {
+  .nav-hover {
+    @apply border-b-2 rounded-lg border-orange-700;
+  };
+
+  .nav-item{
+    @apply block py-2 pr-4 pl-3 text-black rounded  md:text-black md:p-0 dark:text-white hover:bg-slate-200 md:hover:bg-transparent
+  };
+
+  .cart-btn{@apply w-full flex justify-center bg-primary rounded-md border-2 border-primary py-2.5 text-white shadow-md shadow-slate-500 hover:bg-white hover:text-black};
+
+  input::-webkit-outer-spin-button,
+  input::-webkit-inner-spin-button {
+    -webkit-appearance: none;
+    margin: 0;
+  };
+  input[type="number"] {
+    -moz-appearance: textfield;
+  };
+
+}
+
+
