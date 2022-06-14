@@ -1,4 +1,6 @@
-# she-code-assessment
+# SCAMP-C6-Assessment
+## Link to hosted project:https://sneakers-ecommerce123.netlify.app/ 
+
 
 ## Project setup
 ```
